@@ -214,7 +214,7 @@ endif
 ifeq (, $(VERSION_STRING))
 	VERSION_STRING := NOGIT
 endif
-#VERSION_STRING := 230930b
+VERSION_STRING := v0.22
 
 
 ASFLAGS = -c -mcpu=cortex-m0
